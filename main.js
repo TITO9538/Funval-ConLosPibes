@@ -1,4 +1,12 @@
 
+/* suma Pablo */ 
+function sumar(a, b) {
+  if (typeof a !== 'number' || typeof b !== 'number') {
+    return 'Ambos valores deben ser números';
+  }
+  return a + b;
+}
+
 
 
 
@@ -63,9 +71,4 @@ swich = true;
 } while (swich);
 
 let num2 = parseInt(prompt(`Ahora ingrese su segundo numero`));
-
-
-
-
-
 
