@@ -1,3 +1,5 @@
+
+
 let cliente = promt(`Hola! Bienvenido a nuestra calculadora virtual!
     A continuacion ingrese su Nombre`);
 alert(`Hola ${cliente} Vamos a hacer calculos`);
@@ -16,6 +18,19 @@ let num2 = parseInt(prompt(`Ahora ingrese su segundo numero`));
 
 
 
+
+let num1 = "";
+let num2 = "";
+
+
+function multiplicar(num1, num2) {
+    return  num1 * num2;
+    
+}
+
+
+
+
 num1 = parseFloat(num1);
 num2 = parseFloat(num2);
 
@@ -27,6 +42,10 @@ if (isNaN(num1) || isNaN(num2)) {
   let resultado = num1 / num2;
   alert(`El resultado de dividir ${num1} entre ${num2} es: ${resultado}`);
 }
+
+
+
+
 /* suma Pablo */ 
 function sumar(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
@@ -34,3 +53,4 @@ function sumar(a, b) {
   }
   return a + b;
 }
+
